@@ -4,7 +4,8 @@
     padding: 0;
 }
 body{
-    background: hsl(225, 100%, 94%) url(pattern-background-desktop.svg) no-repeat top;
+    background: hsl(225, 100%, 94%) url(pattern-background-desktop.svg) top;
+    background-repeat: repeat-x;
     background-size: 1500px;
     min-height: 100vh;
     display: grid;
